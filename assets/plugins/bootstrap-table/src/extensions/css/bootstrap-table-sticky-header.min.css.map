@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,WAAW,AAAC,CACV,QAAQ,CAAE,gBAAgB,CAC1B,QAAQ,CAAE,MAAM,CAChB,OAAO,CAAE,GAAG,CACb,AAED,AAAA,WAAW,CAAC,KAAK,CAAC,KAAK,AAAC,CACtB,UAAU,CAAE,IAAI,CACjB,AAED,AAAA,WAAW,CAAC,KAAK,CAAC,KAAK,AAAA,YAAY,AAAC,CAClC,UAAU,CAAE,OAAO,CACpB,AAED,AAAA,WAAW,CAAC,KAAK,CAAC,KAAK,AAAA,WAAW,AAAC,CACjC,UAAU,CAAE,OAAO,CACpB",
+    "sources": [
+        "../sticky-header/bootstrap-table-sticky-header.scss"
+    ],
+    "names": [],
+    "file": "bootstrap-table-sticky-header.min.css"
+}

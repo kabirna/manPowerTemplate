@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC,MAAM,CAAG,KAAK,CAAG,EAAE,AAAA,QAAQ,AAAC,CAC3C,MAAM,CAAE,OAAO,CAChB,AAED,AAAA,gBAAgB,CAAC,MAAM,CAAG,KAAK,CAAG,EAAE,AAAA,OAAO,CAAG,EAAE,AAAA,YAAY,AAAC,CAC3D,OAAO,CAAE,IAAI,CACd",
+    "sources": [
+        "../group-by-v2/bootstrap-table-group-by.scss"
+    ],
+    "names": [],
+    "file": "bootstrap-table-group-by.min.css"
+}
