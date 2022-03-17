@@ -220,5 +220,36 @@ const refreshUsers = () => {
   }
 };
 
+const refreshUsersTableContent = () => {
+  console.log("refreshUsers", fakeUsers);
+  let usersHtml = [];
+  fakeUsers.forEach((item, index) => {
+    usersHtml.push(`
+      <tr>
+        <td>${index + 1}.</td>
+        <td>${item.name}</td>
+        <td>${item.phone}</td>
+        <td>${item.email}</td>
+        <td>${item.lastLogin}</td>
+        <td>
+            <div class="datatable__actions">
+                <i onclick="editRow('${
+                  item.uuid
+                }')"  class="fa fa-pencil-alt action__item__edit"></i>
+                <i data-toggle="modal" data-target="#modalAlert2" onclick="deleteRow('${
+                  item.uuid
+                }')" class="fa fa-trash action__item__delete"></i>
+            </div>
+        </td>
+      </tr>
+    `);
+  });
+  const usersTableContent = document.getElementById("usersTableContent");
+  if (usersTableContent) {
+    usersTableContent.innerHTML = usersHtml.join("");
+  }
+};
+
 //EXECUTE
 refreshUsers();
+refreshUsersTableContent();

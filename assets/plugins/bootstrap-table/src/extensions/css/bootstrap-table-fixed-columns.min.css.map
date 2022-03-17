@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,cAAc,CACd,oBAAoB,AAAC,CACnB,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,CAAC,CACN,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAAE,IAAI,CACtB,UAAU,CAAE,UAAU,CACtB,OAAO,CAAE,CAAC,CACX,AAED,AAAA,cAAc,AAAC,CACb,IAAI,CAAE,CAAC,CAKR,AAND,AAGE,cAHY,CAGZ,iBAAiB,AAAC,CAChB,QAAQ,CAAE,MAAM,CAAA,UAAU,CAC3B,AAGH,AAAA,oBAAoB,AAAC,CACnB,KAAK,CAAE,CAAC,CAKT,AAND,AAGE,oBAHkB,CAGlB,iBAAiB,AAAC,CAChB,UAAU,CAAE,MAAM,CAAA,UAAU,CAC7B",
-    "sources": [
-        "../fixed-columns/bootstrap-table-fixed-columns.scss"
-    ],
-    "names": [],
-    "file": "bootstrap-table-fixed-columns.min.css"
-}
+{"version":3,"sources":["../fixed-columns/bootstrap-table-fixed-columns.scss"],"names":[],"mappings":"AAAA,oCAEE,iBAAA,CACA,KAAA,CACA,WAAA,CACA,qBAAA,CACA,qBAAA,CACA,SAAA,CAGF,eACE,MAAA,CAEA,iCACE,0BAAA,CAIJ,qBACE,OAAA,CAEA,uCACE,4BAAA","file":"bootstrap-table-fixed-columns.min.css"}

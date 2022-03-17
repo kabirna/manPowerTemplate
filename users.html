@@ -546,6 +546,116 @@
             </div>
           </div>
           <!-- END #datatable -->
+
+          <!-- BEGIN HTML TABLE -->
+          <div class="mb-5 w-100">
+            <div class="card">
+              <div class="card-body">
+                <div class="table__toolbar">
+                  <div class="table__toolbar__show__rows__selector">
+                    <span>Mostrar</span>
+                    <select
+                      class="custom-select custom-select-sm form-control form-control-sm"
+                    >
+                      <option value="10" selected>10</option>
+                      <option value="20">20</option>
+                      <option value="30">30</option>
+                      <option value="40">40</option>
+                      <option value="50">50</option>
+                    </select>
+                    <span>filas</span>
+                  </div>
+                  <div class="table__toolbar__other__tools">
+                    <span>Busqueda:</span>
+                    <input type="search" class="form-control form-control-sm" />
+                    <div class="dt-buttons btn-group flex-wrap">
+                      <button
+                        class="btn btn-secondary buttons-print btn-default"
+                        tabindex="0"
+                        aria-controls="datatableDefault"
+                        type="button"
+                      >
+                        <span>Imprimir</span>
+                      </button>
+                      <button
+                        class="btn btn-secondary buttons-csv buttons-html5 btn-default"
+                        tabindex="0"
+                        aria-controls="datatableDefault"
+                        type="button"
+                      >
+                        <span>CSV</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Teléfono</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Ultimo inicio de sesión</th>
+                        <th scope="col">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody id="usersTableContent">
+                      <!-- Fetched from JavaScript -->
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="table__footer">
+                  <div class="table__footer__legend">
+                    <span>Mostrando 1 al 3 de 3 filas</span>
+                  </div>
+                  <div class="table__footer__pages__buttons">
+                    <ul class="pagination">
+                      <li
+                        class="paginate_button page-item previous disabled"
+                        id="userTable_previous"
+                      >
+                        <a
+                          href="#"
+                          aria-controls="userTable"
+                          data-dt-idx="0"
+                          tabindex="0"
+                          class="page-link"
+                          >Anterior</a
+                        >
+                      </li>
+                      <li class="paginate_button page-item active">
+                        <a
+                          href="#"
+                          aria-controls="userTable"
+                          data-dt-idx="1"
+                          tabindex="0"
+                          class="page-link"
+                          >1</a
+                        >
+                      </li>
+                      <li
+                        class="paginate_button page-item next disabled"
+                        id="userTable_next"
+                      >
+                        <a
+                          href="#"
+                          aria-controls="userTable"
+                          data-dt-idx="2"
+                          tabindex="0"
+                          class="page-link"
+                          >Siguiente</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END HTML TABLE -->
         </div>
       </div>
       <!-- END #content -->
@@ -701,6 +811,17 @@
     <script src="assets/plugins/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
     <script src="assets/plugins/bootstrap-table/dist/bootstrap-table.min.js"></script>
     <script src="assets/js/demo/table-plugins.demo.js"></script>
+
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script> -->
     <!-- ================== END page-js ================== -->
   </body>
 </html>

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAMA,AAAA,kBAAkB,AAAC,CACjB,MAAM,CAAE,IAAI,CACb,AAED,AAAA,eAAe,AAAC,CACd,MAAM,CAAE,aAAa,CACtB",
-    "sources": [
-        "../filter-control/bootstrap-table-filter-control.scss"
-    ],
-    "names": [],
-    "file": "bootstrap-table-filter-control.min.css"
-}
+{"version":3,"sources":["../filter-control/bootstrap-table-filter-control.scss"],"names":[],"mappings":"AAMA,mBACE,WAAA,CAGF,gBACE,oBAAA","file":"bootstrap-table-filter-control.min.css"}

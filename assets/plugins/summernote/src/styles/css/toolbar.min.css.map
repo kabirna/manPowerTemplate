@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,AAAC,CACZ,OAAO,CAAE,QAAQ,CACjB,aAAa,CAAE,iBAAiB,CAChC,KAAK,CAAE,IAAI,CACX,gBAAgB,CAAE,OAAO,CACzB,YAAY,CAAE,IAAI,CAClB,sBAAsB,CAAE,GAAG,CAC3B,uBAAuB,CAAE,GAAG,CAC7B",
-    "sources": [
-        "../lite/toolbar.scss"
-    ],
-    "names": [],
-    "file": "toolbar.min.css"
-}
+{"version":3,"sources":["../lite/toolbar.scss"],"names":[],"mappings":"AAAA,cACE,gBAAA,CACA,+BAAA,CACA,UAAA,CACA,wBAAA,CACA,iBAAA,CACA,0BAAA,CACA,2BAAA","file":"toolbar.min.css"}

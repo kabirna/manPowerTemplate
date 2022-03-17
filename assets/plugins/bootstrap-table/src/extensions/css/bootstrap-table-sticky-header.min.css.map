@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAKA,AAAA,WAAW,AAAC,CACV,QAAQ,CAAE,gBAAgB,CAC1B,QAAQ,CAAE,MAAM,CAChB,OAAO,CAAE,GAAG,CACb,AAED,AAAA,WAAW,CAAC,KAAK,CAAC,KAAK,AAAC,CACtB,UAAU,CAAE,IAAI,CACjB,AAED,AAAA,WAAW,CAAC,KAAK,CAAC,KAAK,AAAA,YAAY,AAAC,CAClC,UAAU,CAAE,OAAO,CACpB,AAED,AAAA,WAAW,CAAC,KAAK,CAAC,KAAK,AAAA,WAAW,AAAC,CACjC,UAAU,CAAE,OAAO,CACpB",
-    "sources": [
-        "../sticky-header/bootstrap-table-sticky-header.scss"
-    ],
-    "names": [],
-    "file": "bootstrap-table-sticky-header.min.css"
-}
+{"version":3,"sources":["../sticky-header/bootstrap-table-sticky-header.scss"],"names":[],"mappings":"AAKA,YACE,yBAAA,CACA,eAAA,CACA,WAAA,CAGF,wBACE,eAAA,CAGF,oCACE,kBAAA,CAGF,mCACE,kBAAA","file":"bootstrap-table-sticky-header.min.css"}

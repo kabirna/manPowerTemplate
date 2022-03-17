@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../mixins/buttons.scss"
-    ],
-    "names": [],
-    "file": "buttons.min.css"
-}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"buttons.min.css"}
